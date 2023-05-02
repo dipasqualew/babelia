@@ -1,0 +1,32 @@
+{
+  "name": "@babelia/archive-service",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/koa": "^2.13.6",
+    "@types/koa__router": "^12.0.0",
+    "@types/koa-bodyparser": "^4.3.10",
+    "@types/koa-json": "^2.0.20",
+    "eslint": "^8.39.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@koa/router": "^12.0.0",
+    "@notionhq/client": "^2.2.4",
+    "@postlight/parser": "^2.2.3",
+    "@tryfabric/martian": "^1.2.4",
+    "commander": "^10.0.1",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.0",
+    "koa-json": "^2.0.2",
+    "playwright": "^1.33.0",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "zod": "^3.21.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "cli": "node ./dist/index.js",
+    "serve": "node ./dist/src/server.js"
+  }
+}
